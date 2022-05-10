@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char *argv[] = {"/bin/ls", "-l","/usr/", NULL};
+	char *argv[] = {"myppid", NULL};
 
 	printf("Before execve\n");
 
